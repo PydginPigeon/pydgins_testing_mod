@@ -14,6 +14,8 @@ scripted_gui = {
     }
   }
 
+
+
   		# automatic_load_button_click = {
       #   set_variable = { trucks_stored = num_equipment@motorized_equipment_1 }
 			#   log = "TRUCKS: [?trucks_stored]"
@@ -28,8 +30,8 @@ scripted_gui = {
   #      ██ ██    ██ ██   ██     ██  ██  ██ ██      ██  ██ ██ ██    ██ 
   # ███████  ██████  ██████      ██      ██ ███████ ██   ████  ██████  
   
-  background_scripted_gui2 = {
-		window_name = "background_scripted_gui_window2"
+  ptm_gui_main_window = {
+		window_name = "ptm_gui_main_window"
 		context_type = player_context
 		parent_window_token = top_bar
 	  
@@ -299,4 +301,6 @@ scripted_gui = {
 
 		}
 	}
+
+  
 }
