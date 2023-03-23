@@ -1,36 +1,8 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_scripted_gui_window_background"
-		textureFile = "/gfx/interface/scripted_gui_graphics/scripted_gui_background.dds"
-	}
-	spriteType = {
-		name = "GFX_ddlist_gui_window_background"
-		textureFile = "/gfx/interface/scripted_gui_graphics/ddlist_gui_background.dds"
-	}
-	spriteType = {
-		name = "GFX_load_button"
-		textureFile = "/gfx/interface/scripted_gui_graphics/load_button.dds"
-	}
-	spriteType = {
 		name = "GFX_pydgin"
 		textureFile = "/gfx/interface/scripted_gui_graphics/pydgin.dds"
-	}
-	spriteType = {
-		name = "GFX_pydgin_nuke_button"
-		textureFile = "/gfx/interface/scripted_gui_graphics/pydgin_nuke_button.dds"
-	}
-	spriteType = {
-		name = "GFX_present_button"
-		textureFile = "/gfx/interface/scripted_gui_graphics/present_button.dds"
-	}
-	spriteType = {
-		name = "GFX_ddlist_open_button"
-		textureFile = "/gfx/interface/scripted_gui_graphics/ddlist_open_button.dds"
-	}
-	spriteType = {
-		name = "GFX_ddlist_open_button"
-		textureFile = "/gfx/interface/scripted_gui_graphics/ddlist_open_button.dds"
 	}
 	
 }
