@@ -16,7 +16,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_mini_tooltip"
 		}
 		instantTextboxType = {
-			name = "SOS_title"
+			name = "pydgin_title"
 			position = { x = 13 y = 4 }
 			font = "hoi_20bs"
 			borderSize = { x = 0 y = 0 }
@@ -26,7 +26,7 @@ guiTypes = {
 			fixedsize = yes
 		}
 		buttonType = {
-			name ="sos_ddlist_open_button"
+			name ="ddlist_open_button"
 			spriteType = "GFX_button_allied_plans"
 			position = { x = 80 y = 5 }
 			Orientation = "UPPER_LEFT"
@@ -49,7 +49,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_window"
 		}
 		instantTextboxType = {
-			name = "sos_ddlist_text"
+			name = "ddlist_text"
 			position = { x = 40 y = 40 }
 			font = "hoi_30header"
 
@@ -65,7 +65,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		buttonType = {
-			name ="sos_ddlist_close_button"
+			name ="ddlist_close_button"
 			spriteType = "GFX_closebutton"
 			position = { x= 860 y = 25 }
 			Orientation = "UPPER_LEFT"
