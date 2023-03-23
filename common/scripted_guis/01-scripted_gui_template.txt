@@ -67,6 +67,31 @@ scripted_gui = {
         set_technology = { backhand_blow = 0 popup = no }
         set_technology = { modern_blitzkrieg = 0 popup = no }
 
+        #sf
+        set_technology = { superior_firepower = 0 popup = no }
+        set_technology = { sup_delay = 0 popup = no }
+        set_technology = { mobile_defence = 0 popup = no }
+      
+        set_technology = { sup_mechanized_offensive = 0 popup = no }
+
+        #l
+        set_technology = { intergrated_support = 0 popup = no }
+        set_technology = { regimental_combat_teams = 0 popup = no }
+
+        #l
+        set_technology = { concentrated_fire_plans = 0 popup = no }
+        set_technology = { combined_arms = 0 popup = no }
+        set_technology = { tactical_control = 0 popup = no }
+        set_technology = { air_land_battle = 0 popup = no }
+
+        set_technology = { dispersed_support = 0 popup = no }
+        set_technology = { overwhelming_firepower = 0 popup = no }
+
+        set_technology = { centralized_fire_control = 0 popup = no }
+        set_technology = { forward_observers = 0 popup = no }
+        set_technology = { advanced_firebases = 0 popup = no }
+        set_technology = { shock_and_awe = 0 popup = no }
+
         log = "Cleared Land doctrine"
       }
 
@@ -147,68 +172,73 @@ scripted_gui = {
       #      ██ ██    ██ ██      ██      ██   ██ ██ ██    ██ ██   ██     ██      ██ ██   ██ ██      ██      ██    ██ ██ ███ ██ ██      ██   ██ 
       # ███████  ██████  ██      ███████ ██   ██ ██  ██████  ██   ██     ██      ██ ██   ██ ███████ ██       ██████   ███ ███  ███████ ██   ██
 
+
+
       add_sf_ll_doctrine_button_click = {
-        set_technology = { mobile_warfare = 1 popup = no }
-        set_technology = { delay = 1 popup = no }
-        set_technology = { elastic_defence = 1 popup = no }
+        set_technology = { superior_firepower = 1 popup = no }
+        set_technology = { sup_delay = 1 popup = no }
+        set_technology = { mobile_defence = 1 popup = no }
 
-        set_technology = { kampfgruppe = 1 popup = no }
+        set_technology = { sup_mechanized_offensive = 1 popup = no }
 
-        set_technology = { mobile_infantry = 1 popup = no }
-        set_technology = { mass_motorization = 1 popup = no }
-        set_technology = { mechanised_offensive = 1 popup = no }
+        set_technology = { dispersed_support = 1 popup = no }
+        set_technology = { overwhelming_firepower = 1 popup = no }
 
-        set_technology = { volkssturm = 1 popup = no }
-        set_technology = { nd_conscription = 1 popup = no }
-        set_technology = { werwolf_guerillas = 1 popup = no }
+        set_technology = { concentrated_fire_plans = 1 popup = no }
+        set_technology = { combined_arms = 1 popup = no }
+        set_technology = { tactical_control = 1 popup = no }
+        set_technology = { air_land_battle = 1 popup = no }
       }
 
       add_sf_lr_doctrine_button_click = {
-        set_technology = { mobile_warfare = 1 popup = no }
-        set_technology = { delay = 1 popup = no }
-        set_technology = { elastic_defence = 1 popup = no }
+        set_technology = { superior_firepower = 1 popup = no }
+        set_technology = { sup_delay = 1 popup = no }
+        set_technology = { mobile_defence = 1 popup = no }
 
-        set_technology = { kampfgruppe = 1 popup = no }
+        set_technology = { sup_mechanized_offensive = 1 popup = no }
 
-        set_technology = { mobile_infantry = 1 popup = no }
-        set_technology = { mass_motorization = 1 popup = no }
-        set_technology = { mechanised_offensive = 1 popup = no }
+        set_technology = { dispersed_support = 1 popup = no }
+        set_technology = { overwhelming_firepower = 1 popup = no }
 
-        set_technology = { firebrigades = 1 popup = no }
-        set_technology = { backhand_blow = 1 popup = no }
-        set_technology = { modern_blitzkrieg = 1 popup = no }
+        set_technology = { centralized_fire_control = 1 popup = no }
+        set_technology = { forward_observers = 1 popup = no }
+        set_technology = { advanced_firebases = 1 popup = no }
+        set_technology = { shock_and_awe = 1 popup = no }
       }
-
       add_sf_rl_doctrine_button_click = {
-        set_technology = { mobile_warfare = 1 popup = no }
-        set_technology = { delay = 1 popup = no }
-        set_technology = { elastic_defence = 1 popup = no }
+        set_technology = { superior_firepower = 1 popup = no }
+        set_technology = { sup_delay = 1 popup = no }
+        set_technology = { mobile_defence = 1 popup = no }
 
-        set_technology = { kampfgruppe = 1 popup = no }
+        set_technology = { sup_mechanized_offensive = 1 popup = no }
 
-        set_technology = { armored_spearhead = 1 popup = no }
-        set_technology = { schwerpunk = 1 popup = no }
-        set_technology = { blitzkrieg = 1 popup = no }
+        #l
+        set_technology = { intergrated_support = 1 popup = no }
+        set_technology = { regimental_combat_teams = 1 popup = no }
 
-        set_technology = { volkssturm = 1 popup = no }
-        set_technology = { nd_conscription = 1 popup = no }
-        set_technology = { werwolf_guerillas = 1 popup = no }
+        #l
+        set_technology = { concentrated_fire_plans = 1 popup = no }
+        set_technology = { combined_arms = 1 popup = no }
+        set_technology = { advanced_firebases = 1 popup = no }
+        set_technology = { air_land_battle = 1 popup = no }
+
       }
 
       add_sf_rr_doctrine_button_click = {
-        set_technology = { mobile_warfare = 1 popup = no }
-        set_technology = { delay = 1 popup = no }
-        set_technology = { elastic_defence = 1 popup = no }
+        set_technology = { superior_firepower = 1 popup = no }
+        set_technology = { sup_delay = 1 popup = no }
+        set_technology = { mobile_defence = 1 popup = no }
 
-        set_technology = { kampfgruppe = 1 popup = no }
+        set_technology = { sup_mechanized_offensive = 1 popup = no }
 
-        set_technology = { armored_spearhead = 1 popup = no }
-        set_technology = { schwerpunk = 1 popup = no }
-        set_technology = { blitzkrieg = 1 popup = no }
+        set_technology = { intergrated_support = 1 popup = no }
+        set_technology = { regimental_combat_teams = 1 popup = no }
 
-        set_technology = { firebrigades = 1 popup = no }
-        set_technology = { backhand_blow = 1 popup = no }
-        set_technology = { modern_blitzkrieg = 1 popup = no }
+        set_technology = { centralized_fire_control = 1 popup = no }
+        set_technology = { forward_observers = 1 popup = no }
+        set_technology = { advanced_firebases = 1 popup = no }
+        set_technology = { shock_and_awe = 1 popup = no }
+
       }
 
       # ██████  ██████  ██████  
